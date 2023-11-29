@@ -1,9 +1,9 @@
 namespace GenericsBasics {
     public class Vessel<T> {
-        protected T Capacity;
+        protected T capacity;
 
         public Vessel(T capacity) {
-            this.Capacity = capacity;
+            this.capacity = capacity;
         }
     }
 }
