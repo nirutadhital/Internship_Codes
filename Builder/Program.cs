@@ -101,3 +101,9 @@ class Coke : ColdDrink
         return "Coke";
     }
 }
+
+
+class BuilderPatternDemo
+{
+    
+}
