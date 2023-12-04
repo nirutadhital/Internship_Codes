@@ -101,3 +101,7 @@ class Coke : ColdDrink
         return "Coke";
     }
 }
+class Meal
+{
+    
+}
