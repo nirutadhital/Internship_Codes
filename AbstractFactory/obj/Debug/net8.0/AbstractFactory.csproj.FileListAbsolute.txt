@@ -1,0 +1,14 @@
+D:\Truenary_Intership\DesignPatterns\AbstractFactory\bin\Debug\net8.0\AbstractFactory.exe
+D:\Truenary_Intership\DesignPatterns\AbstractFactory\bin\Debug\net8.0\AbstractFactory.deps.json
+D:\Truenary_Intership\DesignPatterns\AbstractFactory\bin\Debug\net8.0\AbstractFactory.runtimeconfig.json
+D:\Truenary_Intership\DesignPatterns\AbstractFactory\bin\Debug\net8.0\AbstractFactory.dll
+D:\Truenary_Intership\DesignPatterns\AbstractFactory\bin\Debug\net8.0\AbstractFactory.pdb
+D:\Truenary_Intership\DesignPatterns\AbstractFactory\obj\Debug\net8.0\AbstractFactory.GeneratedMSBuildEditorConfig.editorconfig
+D:\Truenary_Intership\DesignPatterns\AbstractFactory\obj\Debug\net8.0\AbstractFactory.AssemblyInfoInputs.cache
+D:\Truenary_Intership\DesignPatterns\AbstractFactory\obj\Debug\net8.0\AbstractFactory.AssemblyInfo.cs
+D:\Truenary_Intership\DesignPatterns\AbstractFactory\obj\Debug\net8.0\AbstractFactory.csproj.CoreCompileInputs.cache
+D:\Truenary_Intership\DesignPatterns\AbstractFactory\obj\Debug\net8.0\AbstractFactory.dll
+D:\Truenary_Intership\DesignPatterns\AbstractFactory\obj\Debug\net8.0\refint\AbstractFactory.dll
+D:\Truenary_Intership\DesignPatterns\AbstractFactory\obj\Debug\net8.0\AbstractFactory.pdb
+D:\Truenary_Intership\DesignPatterns\AbstractFactory\obj\Debug\net8.0\AbstractFactory.genruntimeconfig.cache
+D:\Truenary_Intership\DesignPatterns\AbstractFactory\obj\Debug\net8.0\ref\AbstractFactory.dll
