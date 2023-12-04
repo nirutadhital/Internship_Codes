@@ -127,6 +127,10 @@ class Meal
    }
    class MealBuilder
    {
+    public MealBuilder()
+    {
+        
+    }
     
    }
     
