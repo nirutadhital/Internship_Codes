@@ -105,5 +105,8 @@ class Coke : ColdDrink
 
 class BuilderPatternDemo
 {
-    
+    public BuilderPatternDemo()
+    {
+        
+    }
 }
