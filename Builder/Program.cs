@@ -117,5 +117,17 @@ class Meal
       }		
       return cost;
    }
+     public void showItems(){
+   
+      for (Item item : items) {
+         Console.WriteLine("Item : " + item.name());
+         Console.WriteLine(", Packing : " + item.packing().pack());
+         Console.WriteLine(", Price : " + item.price());
+      }		
+   }
+   class MealBuilder
+   {
+    
+   }
     
 }
