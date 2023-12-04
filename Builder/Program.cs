@@ -107,6 +107,7 @@ class BuilderPatternDemo
 {
     public BuilderPatternDemo()
     {
+        int a=a+1;
         
     }
 }
