@@ -31,6 +31,7 @@ class Circle: IShape
 }
 class ShapeFactory
 {
+    //method that takes arguments
     public IShape GetShape(String ShapeType)
     {
         if(ShapeType==null)
