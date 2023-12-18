@@ -1,0 +1,45 @@
+@model MyNotes.ViewModels.NoteViewModel
+
+@{
+    ViewData["Title"]="Edit Note";
+}
+
+
+<div class="row">
+    <div class="col-8 mx-auto">
+        <div class="row d-flex align-items-center">
+            <div class="col-10">
+                <h1 class="mt-2">Edit Note</h1>
+            </div>
+            <div class="col-2">
+                <a class="btn btn-primary form-control" asp-action="Index"><i class="bi bi-arrow-left"></i> Go Back</a>
+            </div>
+        </div>
+        <hr />
+        <form asp-action="Edit" asp-controller="Note" method="post">
+            <input type="hidden" asp-for="Id">
+            <input type="hidden" asp-for="CreatedDate">
+            <input type="hidden" asp-for="UserId">
+            <div class="mb-3">
+                <label asp-for="Title"></label>
+                <input type="text" asp-for="Title" class="form-control">
+                <span class="text-danger" asp-validation-for="Title"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Description"></label>
+                <textarea  asp-for="Description" class="form-control" rows="10"></textarea> 
+                <span class="text-danger" asp-validation-for="Description"></span>
+            </div>
+            <div class="mb-3">
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                    <label>Choose Background Color</label>
+                    <input type="color" asp-for="Color" >
+                </div>
+            </div>
+        
+            <div class="mb-3">
+                <input type="submit" class="form-control btn btn-success" value="Save Changes">
+            </div>
+        </form>
+    </div>
+</div>

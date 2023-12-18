@@ -1,0 +1,49 @@
+@model MyNotes.ViewModels.RegisterViewModel
+
+@{
+    ViewData["Title"]="Register";
+}
+
+<div class="row">
+    <div class="col-8 mx-auto">
+        <h1 class="mt-2">Registration to Mero Notes</h1>
+        <hr />
+        <form asp-action="Register" asp-controller="Account" method="post">
+            <div class="row">
+                <div class="col-6">
+                    <div>
+                        <label asp-for="FirstName"></label>
+                        <input type="text" asp-for="FirstName" class="form-control">
+                        <span class="text-danger" asp-validation-for="FirstName"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div>
+                        <label asp-for="LastName"></label>
+                        <input type="text" asp-for="LastName" class="form-control">
+                        <span class="text-danger" asp-validation-for="LastName"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Email"></label>
+                <input type="email" asp-for="Email" class="form-control">
+                <span class="text-danger" asp-validation-for="Email"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Password"></label>
+                <input type="password" asp-for="Password" class="form-control">
+                <span class="text-danger" asp-validation-for="Password"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="ConfirmPassword"></label>
+                <input type="password" asp-for="ConfirmPassword" class="form-control">
+                <span class="text-danger" asp-validation-for="ConfirmPassword"></span>
+            </div>
+            <div class="mb-3">
+                <input type="submit" class="form-control btn btn-success" value="Register">
+            </div>
+        </form>
+
+    </div>
+</div>
